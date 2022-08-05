@@ -1,6 +1,6 @@
 {
   "name": "aniya",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "keywords": [],
   "repository": {
@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "bin": {
-    "aniya": "bin/aniya"
+    "aniya": "./bin/aniya"
   },
   "files": [
     "bin",
