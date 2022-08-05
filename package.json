@@ -10,7 +10,7 @@
   "license": "MIT",
   "main": "index.js",
   "bin": {
-    "grandpa": "bin/aniya"
+    "aniya": "bin/aniya"
   },
   "files": [
     "bin",
