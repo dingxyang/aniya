@@ -1,6 +1,7 @@
 import { defineConfig } from 'father';
 
 export default defineConfig({
-  cjs: {},
-  platform: 'node',
+  cjs: {
+    output:'dist'
+  },
 });

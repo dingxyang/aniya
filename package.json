@@ -1,6 +1,6 @@
 {
   "name": "aniya",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "",
   "keywords": [],
   "repository": {
@@ -8,14 +8,16 @@
     "url": "https://github.com/dingxyang/aniya"
   },
   "license": "MIT",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
   "bin": {
-    "aniya": "./bin/aniya"
+    "aniya": "./bin/aniya.js"
   },
   "files": [
     "bin",
-    "src",
-    "dist"
+    "index.d.ts",
+    "dist",
+    "templates"
   ],
   "scripts": {
     "build": "father build",
