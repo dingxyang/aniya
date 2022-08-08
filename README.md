@@ -5,11 +5,14 @@
 ## Usage 
 
 ```bash
-# pnpm
-# tsconfig.json
-$ pnpm aniya g tsc
-# package.json
-$ pnpm aniya g pkg
-# .gitignore
-$ pnpm aniya g gitignore
+npm i aniya -g
+
+## 生成 tsconfig.json
+aniya g tsc
+
+##  生成 package.json
+aniya g pkg
+
+##  生成 .gitignore
+aniya g gitignore
 ```
